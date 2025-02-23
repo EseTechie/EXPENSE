@@ -8,30 +8,34 @@ This project is designed to help manage financial expenses using object-oriented
 ---
 The Expense class represents an individual financial transaction.
 
-Attributes:
+**Attributes:**
+
 1. id: A unique identifier (UUID) assigned automatically.
 2. title: A string representing the name of the expense (e.g., "Groceries").
 3. amount: A float representing the expense amount.
 4. created_at: A timestamp indicating when the expense was created (in UTC).
 5. updated_at: A timestamp that updates whenever the expense is modified.
    
-Methods: 
+**Methods:**
 __init__(title, amount): Initializes a new expense with a title, amount, and timestamps.
 update(title=None, amount=None): Updates the title and/or amount of the expense while also updating the updated_at timestamp.
 to_dict(): Returns the expense details as a dictionary.
 
-3. ExpenseDatabase Class
+### 2. ExpenseDatabase Class
+---
 The ExpenseDatabase class is responsible for managing multiple Expense objects.
 
-Attributes:
+**Attributes:**
 expenses: A list that stores all Expense instances.
-Methods:
-__init__(): Initializes an empty list to store expenses.
-add_expense(expense): Adds an Expense object to the database.
-remove_expense(expense_id): Removes an expense from the database by matching the unique id.
-get_expense_by_id(expense_id): Retrieves a specific expense using its unique id.
-get_expense_by_title(title): Retrieves a list of expenses that match a given title.
-to_dict(): Converts all stored expenses into a list of dictionaries.
+
+**Methods:**
+
+- __init__(): Initializes an empty list to store expenses.
+- add_expense(expense): Adds an Expense object to the database.
+- remove_expense(expense_id): Removes an expense from the database by matching the unique id.
+- get_expense_by_id(expense_id): Retrieves a specific expense using its unique id.
+- get_expense_by_title(title): Retrieves a list of expenses that match a given title.
+- to_dict(): Converts all stored expenses into a list of dictionaries.
 
 **HOW TO CLONE**
 To clone the repository, I ran the bash script below 
