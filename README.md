@@ -1,11 +1,12 @@
 # **Altschool first semester project**
 
-**PROJECT DESCRIPTION**
+### PROJECT DESCRIPTION
+---
 
 This project is designed to help manage financial expenses using object-oriented programming (OOP) principles in Python. It consists of two main classes: Expense and ExpenseDatabase.
 
-### 1. Expense Class
----
+**1. Expense Class**
+
 The Expense class represents an individual financial transaction.
 
 **Attributes:**
@@ -21,8 +22,8 @@ __init__(title, amount): Initializes a new expense with a title, amount, and tim
 update(title=None, amount=None): Updates the title and/or amount of the expense while also updating the updated_at timestamp.
 to_dict(): Returns the expense details as a dictionary.
 
-### 2. ExpenseDatabase Class
----
+**2. ExpenseDatabase Class**
+
 The ExpenseDatabase class is responsible for managing multiple Expense objects.
 
 **Attributes:**
@@ -37,7 +38,8 @@ expenses: A list that stores all Expense instances.
 - get_expense_by_title(title): Retrieves a list of expenses that match a given title.
 - to_dict(): Converts all stored expenses into a list of dictionaries.
 
-**HOW TO CLONE**
+### HOW TO CLONE
+---
 
 To clone the repository, I ran the bash script below 
 ```
@@ -45,7 +47,9 @@ git clone https://github.com/EseTechie/EXPENSE
 cd EXPENSE_MANAGEMENT
 ```
 
-**HOW TO RUN THE CODE**
+### HOW TO RUN THE CODE
+---
+
 To get a sample output as a demonstration, a Python script was created with the code below;
 
 from expense_manager import Expense, ExpenseDatabase
