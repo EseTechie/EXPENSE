@@ -38,6 +38,7 @@ expenses: A list that stores all Expense instances.
 - to_dict(): Converts all stored expenses into a list of dictionaries.
 
 **HOW TO CLONE**
+
 To clone the repository, I ran the bash script below 
 ```
 git clone https://github.com/EseTechie/EXPENSE
