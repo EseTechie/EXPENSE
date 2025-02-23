@@ -1,9 +1,11 @@
-# EXPENSE
-Altschool first semester project
+# **Altschool first semester project**
+
+**PROJECT DESCRIPTION**
 
 This project is designed to help manage financial expenses using object-oriented programming (OOP) principles in Python. It consists of two main classes: Expense and ExpenseDatabase.
 
-1. Expense Class
+### 1. Expense Class
+---
 The Expense class represents an individual financial transaction.
 
 Attributes:
