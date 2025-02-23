@@ -39,8 +39,10 @@ expenses: A list that stores all Expense instances.
 
 **HOW TO CLONE**
 To clone the repository, I ran the bash script below 
+```
 git clone https://github.com/EseTechie/EXPENSE
 cd EXPENSE_MANAGEMENT
+```
 
 **HOW TO RUN THE CODE**
 To get a sample output as a demonstration, a Python script was created with the code below;
