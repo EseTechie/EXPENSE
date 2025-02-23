@@ -1,3 +1,6 @@
+import uuid
+from datetime import datetime
+
 class Expense:
     def __init__(self, title: str, amount: float):
         self.id = str(uuid.uuid4())  # Generate a unique UUID
