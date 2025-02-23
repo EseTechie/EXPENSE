@@ -76,7 +76,7 @@ if expense:
 expense1.update(amount=55.00)
 print("Updated Expense:", expense1.to_dict())
 
-# Remove an expense
+**Remove an expense**
 db.remove_expense(expense2.id)
 print("Expenses after removal:", db.to_dict())
 
