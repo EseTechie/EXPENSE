@@ -54,25 +54,25 @@ To get a sample output as a demonstration, a Python script was created with the 
 
 from expense_manager import Expense, ExpenseDatabase
 
-# Create an instance of ExpenseDatabase
+**Create an instance of ExpenseDatabase**
 db = ExpenseDatabase()
 
-# Add expenses
+**Add expenses**
 expense1 = Expense("Groceries", 50.75)
 expense2 = Expense("Transport", 15.20)
 
 db.add_expense(expense1)
 db.add_expense(expense2)
 
-# Display all expenses
+**Display all expenses**
 print("All Expenses:", db.to_dict())
 
-# Retrieve an expense by ID
+**Retrieve an expense by ID**
 expense = db.get_expense_by_id(expense1.id)
 if expense:
     print("Retrieved Expense by ID:", expense.to_dict())
 
-# Update an expense
+**Update an expense**
 expense1.update(amount=55.00)
 print("Updated Expense:", expense1.to_dict())
 
